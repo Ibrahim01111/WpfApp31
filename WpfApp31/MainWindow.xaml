@@ -7,27 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions >
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="1" Orientation="Horizontal">
-            <Button Grid.Row="1" Width="100"
+        <StackPanel Grid.Row="1" Orientation="Vertical">
+            <Button Grid.Row="1" Width="90"
                 Height="50"
-                Background="Red"
-                Content="Click me"
-                Foreground="White"
-                FontSize="25"
+                Background="Aqua"
+                Content="Duyme"
+                Foreground="Black"
+                FontSize="20"
                 ></Button>
-            <Label Content="Salam" FontSize="50" HorizontalContentAlignment="Center"></Label>
-            <Label Content="Salam" FontSize="50" HorizontalContentAlignment="Center"></Label>
-            <Label Content="Salam" FontSize="50" HorizontalContentAlignment="Center"></Label>
+            <Button Grid.Row="1" Width="90"
+                Height="50"
+                Background="Bisque"
+                Content="seqis"
+                Foreground="Black"
+                FontSize="20"
+                ></Button>
+            <Label Content="Login" FontSize="30" HorizontalContentAlignment="Center" Background="White"></Label>
+
+
         </StackPanel>
-        
-        
-        <Label Content="Salam" Foreground="Red" FontSize="100"></Label>
-        
-        
+
+
     </Grid>
 </Window>
