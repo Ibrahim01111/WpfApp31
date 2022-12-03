@@ -23,6 +23,7 @@ namespace WpfApp31
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
